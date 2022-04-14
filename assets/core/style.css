@@ -4,10 +4,16 @@
         url("../fonts/rooms.woff") format("woff");
 }
 
+@font-face {
+    font-family: "names";
+    src: url("../fonts/HYSongYangTiW.woff2") format("woff2"),
+        url("../fonts/HYSongYangTiW.woff") format("woff");
+}
+
 * {
     padding: 0px;
     margin: 0px;
-    font-family: "rooms", Helvetica, Tahoma, Arial, "PingFangSC", "HiraginoSansGB",
+    font-family: "names", Helvetica, Tahoma, Arial, "PingFangSC", "HiraginoSansGB",
         "HeitiSC", "MicrosoftYaHei", "WenQuanYiMicroHei", sans-serif
 }
 
@@ -197,7 +203,7 @@ h1 img {
 
 .tmpAvatar div {
     font-family: "rooms";
-    font-size: 200px;
+    font-size: 100px;
     width: 500px;
     line-height: 250px;
     float: left;
@@ -206,6 +212,7 @@ h1 img {
     text-align: center;
     overflow: hidden;
     height: 250px;
+    font-family: "names";
 }
 
 .tmpAvatar .line1 {
