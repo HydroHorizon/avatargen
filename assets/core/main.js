@@ -77,7 +77,7 @@ function setAvatar(objColor) {
 
 // 生成头像图片
 function makeAvatar(eleImg) {
-    return html2canvas($(".tmpAvatar")[0], { scale: 2 }).then(canvas => {
+    return html2canvas($(".tmpAvatar")[0], { scale: 1 }).then(canvas => {
         eleImg.attr("src", canvas.toDataURL("image/png"));
     });
 }
