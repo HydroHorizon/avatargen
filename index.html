@@ -28,8 +28,9 @@
         <h1><img src="./assets/images/slogan.png" /></h1>
         <div class="formContiner">
             <ul id="roomForm">
-                <li><label>楼号</label><input type="tel" maxlength="4" name="unit" id="unit" value="42#" /></li>
-                <li><label>户号</label><input type="tel" maxlength="4" name="room" id="room" value="502" /></li>
+                <!-- 楼号可能包括汉字：臻臻楼 -->
+                <li><label>楼号</label><input type="text" maxlength="4" name="unit" id="unit" value="D32" /></li>
+                <li><label>户号</label><input type="tel" maxlength="4" name="room" id="room" value="215" /></li>
             </ul><button id="btnSubmit"><img src="./assets/images/btnSubmit.png" /></button>
         </div>
         <div id="divAvatar"><img id="roomAvatar"
