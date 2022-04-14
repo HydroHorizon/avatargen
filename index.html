@@ -29,10 +29,12 @@
         <div class="formContiner">
             <ul id="roomForm">
                 <!-- 楼号可能包括汉字：臻臻楼 -->
-                <li><label><b>寝室</b></label><input style="height:35px;font-size: 24px;" type="text" maxlength="9"
-                        name="unit" id="unit" value="D32-215" /></li>
-                <li><label><b>名称</b></label><input style="height:35px;font-size: 24px;" type="text" maxlength="9"
-                        name="room" id="room" value="寝室长" /></li>
+                <li><label><b>楼栋</b></label><input style="height:35px;font-size: 24px;" type="text" maxlength="8"
+                        name="dorm" id="dorm" value="D32" /></li>
+                <li><label><b>寝室</b></label><input style="height:35px;font-size: 24px;" type="number" maxlength="8"
+                        name="room" id="room" value="215" /></li>
+                <li><label><b>昵称</b></label><input style="height:35px;font-size: 24px;" type="text" maxlength="8"
+                        name="title" id="title" value="寝室长" /></li>
             </ul><button id="btnSubmit"><img src="./assets/images/btnSubmit.png" /></button>
         </div>
         <div id="divAvatar"><img id="roomAvatar">

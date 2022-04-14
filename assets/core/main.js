@@ -63,11 +63,11 @@ function clearSelect() {
     $(".tempList li").removeClass("selected");
 }
 function setAvatar(objColor) {
-    $(".line1").html($("#unit").val());
+    $(".line1").html($("#dorm").val() + '-' + $("#room").val());
     $(".line1").css("background-color", objColor.line1bg);
     $(".line1").css("color", objColor.line1txt);
 
-    $(".line2").html($("#room").val());
+    $(".line2").html($("#title").val());
     $(".line2").css("background-color", objColor.line2bg);
     $(".line2").css("color", objColor.line2txt);
 
