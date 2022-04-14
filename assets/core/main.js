@@ -1,6 +1,10 @@
 
 // 一个数组存放所有颜色对象
 var colors = [
+    { name: "交大红", line1bg: "#972d3b", line1txt: "#dddddd", line2bg: "#dddddd", line2txt: "#972d3b" },
+    { name: "交大红", line1bg: "#dddddd", line1txt: "#972d3b", line2bg: "#972d3b", line2txt: "#dddddd" },
+    { name: "交大蓝", line1bg: "#183f93", line1txt: "#dddddd", line2bg: "#dddddd", line2txt: "#183f93" },
+    { name: "交大蓝", line1bg: "#dddddd", line1txt: "#183f93", line2bg: "#183f93", line2txt: "#dddddd" },
     { name: "团团团", line1bg: "#f2e849", line1txt: "#2757da", line2bg: "#2757da", line2txt: "#ffffff" },
     { name: "7+7", line1bg: "#00805f", line1txt: "#ffffff", line2bg: "#febd00", line2txt: "#e70000" },
     { name: "不焦绿", line1bg: "#3bb778", line1txt: "#ffffff", line2bg: "#febd00", line2txt: "#3bb778" },
@@ -63,7 +67,7 @@ function clearSelect() {
     $(".tempList li").removeClass("selected");
 }
 function setAvatar(objColor) {
-    $(".line1").html($("#dorm").val() + '-' + $("#room").val());
+    $(".line1").html($("#dorm").val() + ' - ' + $("#room").val());
     $(".line1").css("background-color", objColor.line1bg);
     $(".line1").css("color", objColor.line1txt);
 
