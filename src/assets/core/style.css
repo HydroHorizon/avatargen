@@ -1,0 +1,328 @@
+@font-face {
+    font-family: "rooms";
+    src: url("../fonts/rooms.woff2") format("woff2"),
+        url("../fonts/rooms.woff") format("woff");
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "rooms", Helvetica, Tahoma, Arial, "PingFangSC", "HiraginoSansGB",
+        "HeitiSC", "MicrosoftYaHei", "WenQuanYiMicroHei", sans-serif
+}
+
+html,
+body {
+
+    padding: 0;
+    border: 0;
+    margin: 0;
+    height: 100%;
+
+}
+
+a,
+button,
+input,
+textarea,
+label,
+i,
+em {
+    /*highlight*/
+    -webkit-tap-highlight-color: rgba(255, 0, 0, 0);
+    border: 0;
+    -webkit-appearance: none;
+}
+
+.continer {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #c4d3ff;
+    background-image: url(../images/bgtop.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+}
+
+li {
+    list-style-type: none;
+}
+
+h1 {
+    height: 6%;
+    width: 100%;
+    /* position: fixed; */
+    top: 0;
+    text-align: center;
+    padding: 8% 0 6% 0;
+}
+
+h1 img {
+    height: 80%;
+}
+
+.formContiner {
+
+    /* position: fixed; */
+    width: 100%;
+    /* top: 12%; */
+    /* height: 16%; */
+    float: left;
+    /* margin-bottom: 2%; */
+}
+
+#roomForm {
+    width: 65%;
+    /* height: 30%; */
+    /* position: fixed; */
+    /* top: 16%; */
+    /* left: 0; */
+    /* z-index: 100; */
+
+    /* background-color: #fff; */
+    float: left;
+    padding-left: 2%;
+}
+
+#roomForm li {
+    line-height: 40px;
+}
+
+#roomForm li label {
+    padding: 0 12px 0 28px;
+    font-size: 1.5em;
+    color: #2a469a;
+    font-weight: bold;
+}
+
+#roomForm li input {
+
+    padding: 0;
+    margin: 0;
+    font-size: 2rem;
+    color: #2a469a;
+    background: #ffffff;
+    width: 50%;
+    border-radius: 9px;
+    height: 30px;
+    padding: 5px 10px;
+}
+
+#btnSubmit {
+    height: 86px;
+
+    right: 0;
+    /* position: absolute; */
+    top: 0;
+    width: 23%;
+    background-color: transparent;
+}
+
+#btnSubmit img {
+    height: 100%;
+}
+
+.colorContiner {
+    z-index: 100;
+    overflow-x: scroll;
+    float: left;
+}
+
+.tempList {
+
+
+
+
+
+    width: 232%;
+    padding: 3%;
+    /* overflow: hidden; */
+}
+
+.tempList li {
+    float: left;
+
+    margin: 0% 0% 0 10px;
+}
+
+.tempList li.colorSelector.selected .colorBall {
+    border-color: #2a469a;
+}
+
+.tempList li .colorBall {
+    height: 42px;
+
+    width: 42px;
+    border-radius: 30px;
+    border: #ffffff 3px solid;
+}
+
+.tempList li .colorBall div {
+    height: 50%;
+    width: 100%;
+    background-color: #110022;
+}
+
+.tempList li .colorBall .cbLine1 {
+    background-color: #9b4aeb;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-top: 0px solid #ffffff;
+}
+
+.tempList li .colorBall .cbLine2 {
+    background-color: #2569c7;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.tempList li .colorName {
+    font-size: 10px;
+    text-align: center;
+    padding: 6px 0;
+}
+
+
+.tmpAvatar {
+    /* transform: scale(0.01); */
+    width: 500px;
+    position: absolute;
+    z-index: 0;
+    top: 17%;
+    left: 5%;
+}
+
+.tmpAvatar div {
+    font-family: "rooms";
+    font-size: 200px;
+    width: 500px;
+    line-height: 250px;
+    float: left;
+    /* border: 25px #ffffff solid; */
+    letter-spacing: -10px;
+    text-align: center;
+    overflow: hidden;
+    height: 250px;
+}
+
+.tmpAvatar .line1 {
+    background-color: #f2e849;
+    border-bottom-width: 1px;
+    padding-top: 40px;
+    line-height: 210px;
+    height: 210px;
+}
+
+.tmpAvatar .line2 {
+    background-color: #708cda;
+    padding-right: 20px;
+    width: 480px;
+}
+
+.tmpAvatar img {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+
+
+
+
+#divAvatar {
+    /* position: fixed; */
+    width: 104%;
+    /* top: 30%; */
+    text-align: center;
+    height: 35%;
+    float: left;
+    margin: 5% 0;
+}
+
+#divAvatar img {
+
+    /* width: 60%; */
+    height: 100%;
+}
+
+#divAvatar #saveAvatar {
+    /* position: absolute; */
+    height: 50%;
+    /* right: 28px; */
+    /* top: 25%; */
+}
+
+.bottomMenu {
+
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.bottomMenu div {
+    width: 50%;
+    height: 65px;
+    float: left;
+    background-color: #ffffff;
+    background-size: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bottomMenu div.active {
+    background-color: #345acc;
+}
+
+.bottomMenu #mnuA {
+    background-image: url(../images/mnu_a.png);
+}
+
+.bottomMenu #mnuA.active {
+    background-image: url(../images/mnu_a_active.png);
+}
+
+.bottomMenu #mnuB {
+    background-image: url(../images/mnu_b.png);
+}
+
+.bottomMenu #mnuB.active {
+    background-image: url(../images/mnu_b_active.png);
+}
+
+#layGroupmaster {
+    display: none;
+    position: absolute;
+    width: 80%;
+    background-color: #c4d3ff;
+    height: 80%;
+    overflow-y: scroll;
+    padding: 0 10%;
+    top: 12%;
+}
+
+#layGroupmaster ul {
+    width: 100%;
+}
+
+#layGroupmaster ul li {
+    float: left;
+    width: 46%;
+    padding: 1% 2%;
+}
+
+#layGroupmaster ul li img {
+    width: 98%;
+    border: 3px solid #fff;
+    border-radius: 10px;
+}
+
+#layGroupmaster .saveAvatar {
+
+    position: absolute;
+    width: 4%;
+    left: 13px;
+    top: 32%;
+}
