@@ -6,7 +6,7 @@ A SJTU themed wechat avatar generator
 
 ```bash
 # local test
-git clone https://github.com:HydroHorizon/avatargen.git
+git clone https://github.com/HydroHorizon/avatargen.git
 cd avatargen
 python3 -m http.server 8000
 
