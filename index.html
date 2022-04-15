@@ -22,7 +22,7 @@
         <div class="line1" style="background-color: rgb(242, 232, 73); color: rgb(39, 87, 218);">
         </div>
         <div class="line2" style="background-color: rgb(39, 87, 218); color: rgb(255, 255, 255);">
-        </div><img src="./assets/images/sjtu_frame.png" />
+        </div><img id="frame" src="./assets/images/sjtu_frame_red.png" />
     </div>
     <div class="continer">
         <h1><img src="./assets/images/slogan.png" /></h1>
@@ -35,6 +35,12 @@
                         name="room" id="room" value="215" /></li>
                 <li><label><b>昵称</b></label><input style="height:35px;font-size: 24px;" type="text" maxlength="8"
                         name="title" id="title" value="寝室长" /></li>
+                <li><label><b>边框</b></label><select style="height:35px;font-size: 24px;" name="frametype" id="frametype"
+                        value="red">
+                        <option value="red">Red</option>
+                        <option value="white">White</option>
+                    </select>
+                </li>
             </ul><button id="btnSubmit"><img src="./assets/images/btnSubmit.png" /></button>
         </div>
         <div id="divAvatar"><img id="roomAvatar">

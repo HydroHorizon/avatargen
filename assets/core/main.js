@@ -66,6 +66,7 @@ function onColorSelect(e) {
 function clearSelect() {
     $(".tempList li").removeClass("selected");
 }
+
 function setAvatar(objColor) {
     $(".line1").html($("#dorm").val() + ' - ' + $("#room").val());
     $(".line1").css("background-color", objColor.line1bg);
@@ -77,6 +78,13 @@ function setAvatar(objColor) {
 
     makeAvatar($("#roomAvatar"));
     currColor = objColor;
+
+    setFrame($("#frametype").val());
+}
+
+// 设置边框类型
+function setFrame(frametype) {
+    document.getElementById("frame").src = "./assets/images/sjtu_frame_" + frametype + ".png";
 }
 
 // 生成头像图片
