@@ -27,7 +27,7 @@ Change **dorm**, **room**, **title** and **frametype** to your value and generat
 
 Current supported color scheme: SJTU Red, SJTU Blue and other themes
 
-![Demoe](https://s2.loli.net/2022/04/15/Vq8XfByu9kPGTjp.png)
+![Demo](https://s2.loli.net/2022/04/15/Vq8XfByu9kPGTjp.png)
 
 ## Links
 

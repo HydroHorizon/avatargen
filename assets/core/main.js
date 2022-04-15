@@ -5,6 +5,12 @@ var colors = [
     { name: "交大红", line1bg: "#dddddd", line1txt: "#972d3b", line2bg: "#972d3b", line2txt: "#dddddd" },
     { name: "交大蓝", line1bg: "#183f93", line1txt: "#dddddd", line2bg: "#dddddd", line2txt: "#183f93" },
     { name: "交大蓝", line1bg: "#dddddd", line1txt: "#183f93", line2bg: "#183f93", line2txt: "#dddddd" },
+    { name: "麦当劳", line1bg: "#c92a1f", line1txt: "#f5bf44", line2bg: "#f5bf44", line2txt: "#c92a1f" },
+    { name: "麦当劳", line1bg: "#f5bf44", line1txt: "#c92a1f", line2bg: "#c92a1f", line2txt: "#f5bf44" },
+    { name: "小眷村", line1bg: "#d48c5b", line1txt: "#2a2333", line2bg: "#2a2333", line2txt: "#d48c5b" },
+    { name: "小眷村", line1bg: "#2a2333", line1txt: "#d48c5b", line2bg: "#d48c5b", line2txt: "#2a2333" },
+    { name: "罗森", line1bg: "#3170b9", line1txt: "#e6e6e6", line2bg: "#e6e6e6", line2txt: "#3170b9" },
+    { name: "罗森", line1bg: "#e6e6e6", line1txt: "#3170b9", line2bg: "#3170b9", line2txt: "#e6e6e6" },
     { name: "团团团", line1bg: "#f2e849", line1txt: "#2757da", line2bg: "#2757da", line2txt: "#ffffff" },
     { name: "7+7", line1bg: "#00805f", line1txt: "#ffffff", line2bg: "#febd00", line2txt: "#e70000" },
     { name: "不焦绿", line1bg: "#3bb778", line1txt: "#ffffff", line2bg: "#febd00", line2txt: "#3bb778" },
@@ -48,8 +54,7 @@ function iniColorBalls() {
             + "   <div class='cbLine1' style='background-color:" + objColor.line1bg + "'></div>"
             + "   <div class='cbLine2' style='background-color:" + objColor.line2bg + "'></div>"
             + "</div>"
-            // + "<div class='colorName'>" + objColor.name + "</div>"
-            + "<div class='colorName'>" + "</div>"
+            + "<div class='colorName'>" + objColor.name + "</div>"
             + "</li>");
     }
 
