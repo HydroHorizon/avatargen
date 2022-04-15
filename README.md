@@ -21,7 +21,7 @@ open http://127.0.0.1:8000
 ```
 
 Use any mainline browsers to open it. It's better to open on mobile phone(wechat) rather than PC.
-Change **dorm**, **room** and **title** to your value and generate avatar, picture is then downloadable.
+Change **dorm**, **room**, **title** and **frametype** to your value and generate avatar, picture is then downloadable.
 
 ## Demo
 
